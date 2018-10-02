@@ -9,6 +9,7 @@ class Big  {
 public:
     int v; Base b;
 // 在此处补充你的代码
+    Big(int n) : v(n), b(n){}
 };
 int main()  {
     Big a1(5);    Big a2 = a1;
